@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-08-20T11:44:04 EDT" name="Default suite" finished-at="2020-08-20T11:44:46 EDT" duration-ms="41745">
+    <groups>
+    </groups>
+    <test started-at="2020-08-20T11:44:04 EDT" name="Default test" finished-at="2020-08-20T11:44:46 EDT" duration-ms="41745">
+      <class name="Maven.MN00A_LoadSite">
+        <test-method signature="openBI(org.openqa.selenium.Platform, java.lang.String, java.lang.String)[pri:0, instance:Maven.MN00A_LoadSite@7b227d8d]" started-at="2020-08-20T11:44:04 EDT" name="openBI" finished-at="2020-08-20T11:44:26 EDT" duration-ms="21282" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[MAC]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1280x1024]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBI -->
+        <test-method signature="openBI(org.openqa.selenium.Platform, java.lang.String, java.lang.String)[pri:0, instance:Maven.MN00A_LoadSite@7b227d8d]" started-at="2020-08-20T11:44:04 EDT" name="openBI" finished-at="2020-08-20T11:44:46 EDT" duration-ms="41698" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[WINDOWS]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1920x1080]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBI -->
+      </class> <!-- Maven.MN00A_LoadSite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

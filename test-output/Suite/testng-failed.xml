@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="Maven.MN08_ViewFinancialMapping">
+        <methods>
+          <include name="Cprofile" invocation-numbers="1 0"/>
+        </methods>
+      </class> <!-- Maven.MN08_ViewFinancialMapping -->
+      <class name="Maven.MN01B_Login_CorrectInput">
+        <methods>
+          <include name="Login" invocation-numbers="0 1"/>
+        </methods>
+      </class> <!-- Maven.MN01B_Login_CorrectInput -->
+      <class name="Maven.MN01A_Login_Empty">
+        <methods>
+          <include name="Login" invocation-numbers="1 0"/>
+        </methods>
+      </class> <!-- Maven.MN01A_Login_Empty -->
+      <class name="Maven.MN03_ViewUserProfile">
+        <methods>
+          <include name="Logout" invocation-numbers="1 0"/>
+        </methods>
+      </class> <!-- Maven.MN03_ViewUserProfile -->
+      <class name="Maven.PP02_AddNewExpense">
+        <methods>
+          <include name="addNewPayroll" invocation-numbers="1 0"/>
+        </methods>
+      </class> <!-- Maven.PP02_AddNewExpense -->
+      <class name="Maven.MN16_ViewAttestationsSetupPage">
+        <methods>
+          <include name="Cprofile" invocation-numbers="1 0"/>
+        </methods>
+      </class> <!-- Maven.MN16_ViewAttestationsSetupPage -->
+      <class name="Maven.MN10_ViewForecastsPage">
+        <methods>
+          <include name="Cprofile" invocation-numbers="1 0"/>
+        </methods>
+      </class> <!-- Maven.MN10_ViewForecastsPage -->
+      <class name="Maven.MN07_ViewTaxInformation">
+        <methods>
+          <include name="Cprofile" invocation-numbers="0 1"/>
+        </methods>
+      </class> <!-- Maven.MN07_ViewTaxInformation -->
+      <class name="Maven.MN14_ViewEquityInformationPage">
+        <methods>
+          <include name="Cprofile" invocation-numbers="0 1"/>
+        </methods>
+      </class> <!-- Maven.MN14_ViewEquityInformationPage -->
+      <class name="Maven.MN09_ViewDataReconciliation">
+        <methods>
+          <include name="Cprofile" invocation-numbers="0 1"/>
+        </methods>
+      </class> <!-- Maven.MN09_ViewDataReconciliation -->
+      <class name="Maven.MN15_ViewBusinessDocumentsPage">
+        <methods>
+          <include name="Cprofile" invocation-numbers="0 1"/>
+        </methods>
+      </class> <!-- Maven.MN15_ViewBusinessDocumentsPage -->
+      <class name="Maven.PP01_AddNewPayroll">
+        <methods>
+          <include name="addNewPayroll" invocation-numbers="1 0"/>
+        </methods>
+      </class> <!-- Maven.PP01_AddNewPayroll -->
+      <class name="Maven.MN00A_LoadSite">
+        <methods>
+          <include name="openBI" invocation-numbers="1 0"/>
+        </methods>
+      </class> <!-- Maven.MN00A_LoadSite -->
+      <class name="Maven.MN12_ViewExecutiveTeamPage">
+        <methods>
+          <include name="Cprofile" invocation-numbers="0 1"/>
+        </methods>
+      </class> <!-- Maven.MN12_ViewExecutiveTeamPage -->
+      <class name="Maven.MN18_ViewConnectionsPage">
+        <methods>
+          <include name="Cprofile" invocation-numbers="1 0"/>
+        </methods>
+      </class> <!-- Maven.MN18_ViewConnectionsPage -->
+      <class name="Maven.MN13_ViewEmployeesPage">
+        <methods>
+          <include name="Cprofile" invocation-numbers="0 1"/>
+        </methods>
+      </class> <!-- Maven.MN13_ViewEmployeesPage -->
+      <class name="Maven.MN05_ViewCompanyProfile">
+        <methods>
+          <include name="Cprofile" invocation-numbers="1 0"/>
+        </methods>
+      </class> <!-- Maven.MN05_ViewCompanyProfile -->
+      <class name="Maven.MN02_Logout">
+        <methods>
+          <include name="Logout" invocation-numbers="0 1"/>
+        </methods>
+      </class> <!-- Maven.MN02_Logout -->
+      <class name="Maven.MN06A_ChangeDescription">
+        <methods>
+          <include name="Cprofile" invocation-numbers="0 1"/>
+        </methods>
+      </class> <!-- Maven.MN06A_ChangeDescription -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
