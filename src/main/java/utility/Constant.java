@@ -5,7 +5,7 @@ import org.openqa.selenium.Platform;
 
 public class Constant {
 	
-	public static final String URL ="https://dev.myintranet.app:4443/";
+	public static final String URL ="http://dev.bossintegration.com:443/";
 	public static final String USERNAME = System.getenv("BROWSERSTACK_USERNAME");;
 	public static final String AUTOMATE_KEY =System.getenv("BROWSERSTACK_ACCESS_KEY");
 	
